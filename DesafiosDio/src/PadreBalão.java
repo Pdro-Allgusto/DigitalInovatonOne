@@ -27,7 +27,7 @@ Para cada caso de teste, imprima uma única linha contendo a mensagem enviada pe
 import java.io.IOException;
 import java.util.Scanner;
 
-public class padreBalão {
+public class PadreBalão {
     public static void main(String[] args) throws IOException {
         Scanner leitor = new Scanner(System.in);
         while (leitor.hasNext()) {
