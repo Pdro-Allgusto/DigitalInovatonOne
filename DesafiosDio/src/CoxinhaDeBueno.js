@@ -29,4 +29,4 @@ exatamente dois dígitos após o ponto decimal, arredondado se necessário.
 let line = gets().split(" ");
 let a = parseInt(line[0]);
 let b = parseInt(line[1]);
-print((a/b).toFixed(2))
+print((a / b).toFixed(2))
