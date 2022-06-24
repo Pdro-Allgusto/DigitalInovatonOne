@@ -1,4 +1,4 @@
-/*/
+/*
 Desafio
 Precisamos saber quanto uma determinada empresa deve pagar para seus colaboradores,
 porém temos apenas a quantidade de horas trabalhadas e o valor hora. Escreva um programa que leia o
