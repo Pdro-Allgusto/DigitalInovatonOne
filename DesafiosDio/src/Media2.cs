@@ -14,22 +14,25 @@ não esqueça de imprimir o fim de linha após o resultado, caso contrário, voc
 */
 using System;
 
-namespace Start {
+namespace Start
+{
 
- class Program {
-     
-  static void Main(string[] args) {
+    class Program
+    {
 
-   double A, B, C; 
+        static void Main(string[] args)
+        {
 
-   A = double.Parse(Console.ReadLine());
-   B = double.Parse(Console.ReadLine());
-   C = double.Parse(Console.ReadLine());
+            double A, B, C;
 
-   Console.WriteLine("MEDIA = " + String.Format("{0:0.0}", ((A * 2) + (B * 3) + (C * 5)) / (2 + 3 + 5)));
+            A = double.Parse(Console.ReadLine());
+            B = double.Parse(Console.ReadLine());
+            C = double.Parse(Console.ReadLine());
 
-   Console.ReadKey();
+            Console.WriteLine("MEDIA = " + String.Format("{0:0.0}", ((A * 2) + (B * 3) + (C * 5)) / (2 + 3 + 5)));
 
-  }
- }
+            Console.ReadKey();
+
+        }
+    }
 }

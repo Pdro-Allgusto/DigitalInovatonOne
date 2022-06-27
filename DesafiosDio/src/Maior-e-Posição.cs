@@ -8,25 +8,28 @@ Saída
 Apresente o maior valor lido e a posição de entrada, conforme exemplo abaixo.
 */
 // Abaixo segue um exemplo de código que você pode ou não utilizar
-using System; 
+using System;
 
-class TESTE {
+class TESTE
+{
 
-    static void Main(string[] args) { 
-            int n;
-            int maior = 0;
-            int posicao = 0;
-            int cont = 0;
-            for(int i = 1; i <= 100 ; i++){
-              cont++;
-                n = Convert.ToInt32(Console.ReadLine());
-                if(n > maior)
-                {
-                    maior = n;
-                    posicao =cont;     
-                } 
+    static void Main(string[] args)
+    {
+        int n;
+        int maior = 0;
+        int posicao = 0;
+        int cont = 0;
+        for (int i = 1; i <= 100; i++)
+        {
+            cont++;
+            n = Convert.ToInt32(Console.ReadLine());
+            if (n > maior)
+            {
+                maior = n;
+                posicao = cont;
             }
-            Console.WriteLine(maior);
-            Console.WriteLine(posicao);
+        }
+        Console.WriteLine(maior);
+        Console.WriteLine(posicao);
     }
 }

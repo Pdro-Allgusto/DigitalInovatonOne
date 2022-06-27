@@ -10,11 +10,13 @@ A entrada tem dois inteiros positivos: N e L, que são, respectivamente, o núme
 Saída
 A saída é o perímetro P do polígono regular em uma única linha.
 */
-using System; 
+using System;
 
-class Problem {
+class Problem
+{
 
-    static void Main(string[] args) { 
+    static void Main(string[] args)
+    {
         string[] v = Console.ReadLine().Split();
         Console.WriteLine(int.Parse(v[0]) * int.Parse(v[1]));
     }
